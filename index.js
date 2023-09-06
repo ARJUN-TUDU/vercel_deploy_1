@@ -17,7 +17,7 @@ const PORT  = process.env.PORT
 
 app.use(express.json());
 app.use(cors({
-    origin:["https://vercel-deploy-1-pi.vercel.app"],
+    origin:["http://localhost:3000"],
     methods : ["POST","GET"],
     credentials: true
 
